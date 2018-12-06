@@ -1,0 +1,16 @@
+<a class="customer" [routerLink]="['/customer-list', customerInfo.businessReference]">
+  <div class="info-section">
+    <h3 class="customer-name">{{customerInfo.customerDeails.forename}} {{customerInfo.customerDeails.surname}}</h3>
+    <div class="product-name">{{customerInfo.productName}}</div>
+    <div class="business-ref">{{customerInfo.businessReference}}</div>
+  </div>
+
+  <div class="info-section">
+    <div class="case-status">
+      <div class="title">{{customerInfo.caseStatus}} <span class="fa {{statusIcon.src}} fa-xs" aria-hidden="true"></span></div>
+    </div>
+  </div>
+
+  <div class="last-updated">Last updated <span>{{customerInfo.lastUpdated}}</span></div>
+
+</a>

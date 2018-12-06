@@ -1,0 +1,17 @@
+.cust-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+
+.cust-list-item {
+    width: 18em;
+    background: #eee;
+    border: 1px solid #d7d7d7;
+    float: left;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    padding: .5em;
+    border-radius: .3em;
+}

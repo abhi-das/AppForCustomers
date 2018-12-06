@@ -1,0 +1,30 @@
+.customer {
+    text-decoration: none;
+    color: cornflowerblue;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+.info-section {
+    margin-bottom: .5em;
+    background: rgb(255, 253, 250);
+    border-radius: .3em;
+    padding: .2em .5em;
+
+    & .customer-name {
+        font-size: 1.5em;
+    }
+
+    & .product-name {
+        font-size: 1em;
+    }
+
+    & .business-ref {
+        font-size: 1em;
+    }
+}
+
+.last-updated {
+    padding: .2em .5em;
+}

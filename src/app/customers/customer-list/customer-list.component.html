@@ -1,0 +1,9 @@
+<div class="filter-with-cust-list">
+
+  <ul class="cust-list" *ngIf="customerList.length">
+    <li class="cust-list-item" *ngFor="let cust of customerList">
+      <app-customer [customerInfo]="cust"></app-customer>
+    </li>
+  </ul>
+
+</div>

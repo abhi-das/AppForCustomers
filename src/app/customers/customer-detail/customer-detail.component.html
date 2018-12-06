@@ -1,0 +1,18 @@
+<a [routerLink]="['/']"><span class="fa fa-arrow-left fa-xs app-back-btn"></span></a>
+<div class="container customer-detail" *ngIf="custByBusinessRef">
+  
+  <div class="header">
+    <h3>{{custByBusinessRef.customerDeails.forename}} {{custByBusinessRef.customerDeails.surname}}</h3>
+  </div>
+  
+  <div class="product-by-business-ref">
+    <span class="product-name">{{custByBusinessRef.productName}}</span>
+  </div>
+  
+  <div class="last-update">
+    last updated {{custByBusinessRef.lastUpdated}}
+    <span *ngIf="statusIcon.src" class="fa {{statusIcon.src}} fa-xs pull-right"></span>
+    <span class="product-status pull-right">{{custByBusinessRef.caseStatus}}</span>
+  </div>
+
+</div>

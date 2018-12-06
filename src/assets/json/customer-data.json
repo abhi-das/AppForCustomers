@@ -1,0 +1,55 @@
+{
+    "customers": [
+        {
+            "productName": "Fixed Term Retirement Plan",
+            "businessReference": "#12/1234",
+            "quoteExpiringDate": "02/12/2010",
+            "quoteReference": "150214",
+            "caseReceived": "19/02/2010",
+            "caseStatus": "Application Loaded",
+            "lastUpdated": "21/02/2010",
+            "illustrationIssuedDate": null,
+            "funds": null,
+            "customerDeails": {
+                "surname": "Leach",
+                "forename": "John",
+                "dob": "22/02/1955",
+                "postcode": "MV1 2V3"
+            }
+        },
+        {
+            "productName": "Pension Annunity",
+            "businessReference": "#24/98998",
+            "quoteExpiringDate": "28/05/2010",
+            "quoteReference": "564012",
+            "caseReceived": "10/08/2010",
+            "caseStatus": "Illustration Issued",
+            "lastUpdated": "09/10/2011",
+            "illustrationIssuedDate": "12/08/2010",
+            "funds": null,
+            "customerDeails": {
+                "surname": "Miracle",
+                "forename": "Cecillia",
+                "dob": "18/07/1962",
+                "postcode": "MV2 5V1"
+            }
+        },
+        {
+            "productName": "Corporate Fund",
+            "businessReference": "#11/45245",
+            "quoteExpiringDate": "12/08/2010",
+            "quoteReference": "36545",
+            "caseReceived": "31/09/2011",
+            "caseStatus": "Fund Requested",
+            "lastUpdated": "25/11/2012",
+            "illustrationIssuedDate": null,
+            "funds": [],
+            "customerDeails": {
+                "surname": "Frost",
+                "forename": "Johnson",
+                "dob": "22/10/1942",
+                "postcode": "M65 1L8"
+            }
+        }
+    ]
+}
